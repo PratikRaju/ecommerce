@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Dining | Premium Culinary Artistry</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for Elegant Typography -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+     
+</head>
+<body>
+
+    <!-- Header / Navigation Bar -->
+    <!-- Header / Navigation Bar -->
+<header>
+    <a href="#home" class="logo">
+        AURORA
+        <span>DINING</span>
+    </a>
+
+    <nav aria-label="Main navigation">
+        <ul class="nav-links" id="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#reserve">Book a Table</a></li>
+        </ul>
+    </nav>
+
+    <a href="#reserve" class="btn-nav">Book a Table</a>
+
+    <button
+        type="button"
+        class="menu-toggle"
+        id="mobile-menu"
+        aria-label="Open navigation menu"
+        aria-controls="nav-menu"
+        aria-expanded="false">
+        <span aria-hidden="true">&#9776;</span>
+    </button>
+</header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>EXPERIENCE CULINARY ARTISTRY</h1>
+            <p>A symphony of flavor in the heart of the city. Crafted with authentic ingredients and passion.</p>
+            <div class="hero-buttons">
+                <a href="#reserve" class="btn-primary">Book A Table</a>
+                <a href="#menu" class="btn-secondary">View Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy / About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrrwu5FpT8xXFkMIGgs4WR_qrprWLtn2DfFlU068uvHg&s=10" alt="Signature Seafood">
+            </div>
+            <div class="about-text">
+                <h2>AURORA PHILOSOPHY</h2>
+                <p>Signature seafood typography for regional flavors. Carefully joined to satisfy your palate and encoding the handwritten seafood experience for formal culinary expectations and realities of taste.</p>
+                <a href="#menu" class="story-link">Explore Flavors &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dynamic Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="section-header">
+            <h2>OUR CRAFTED MENU</h2>
+            <p>Hand-picked dishes curated by our head chefs</p>
+        </div>
+        
+        <div class="menu-tabs">
+            <button class="tab-btn active" data-filter="all">All Items</button>
+            <button class="tab-btn" data-filter="starters">Starters</button>
+            <button class="tab-btn" data-filter="mains">Main Course</button>
+            <button class="tab-btn" data-filter="pickles">House Pickles</button>
+        </div>
+
+        <div class="menu-grid">
+            <!-- Item 1 -->
+            <div class="menu-item" data-category="starters">
+    <img
+        class="dish-image"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5MgK342p2BuOQTWcOtpRfwow0fgxI5n1J05kI0SdtuA&s=10"
+        alt="Golden crispy calamari rings with dipping sauce"
+        loading="lazy"
+    >
+
+    <div class="item-info">
+        <h3>
+            Crispy Calamari Rings
+            <span class="price">₹340</span>
+        </h3>
+        <p>
+            Golden squid rings served with signature
+            citrus-garlic aioli.
+        </p>
+    </div>
+</div>
+            <!-- Item 2 -->
+            <div class="menu-item" data-category="starters">
+    <img
+        class="dish-image"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLYIgc4QGAC0BI9X5H9k0Q7vsU5MEYTo1Fyz5qi4r4OQ&s=10"
+        alt="Golden crispy calamari rings with dipping sauce"
+        loading="lazy"
+    >
+
+    <div class="item-info">
+        <h3>
+            Signature Coastal Seafood Rice 
+            <span class="price">₹520</span>
+        </h3>
+        <p>
+            Aromatic basmati rice cooked with fresh prawns, crabs, and traditional spices.
+        </p>
+    </div>
+</div>
+            <!-- Item 3 -->
+            <div class="menu-item" data-category="starters">
+    <img
+        class="dish-image"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsmmbY7yaoF8wHgLVBrnicouF2RtgE8FCm2gPMzpRDcg&s=10"
+        alt="Golden crispy calamari rings with dipping sauce"
+        loading="lazy"
+    >
+
+    <div class="item-info">
+        <h3>
+            Premium House Prawn Pickle
+            <span class="price">₹299</span>
+        </h3>
+        <p>
+            Fiery, tangy, and deeply spiced prawns pickled in pure mustard oil and native herbs.
+        </p>
+    </div>
+</div>
+            <!-- Item 4 -->
+            <div class="menu-item" data-category="starters">
+    <img
+        class="dish-image"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX26mKEKr6B26UXouJQk3V_fq6K9lC7dJnBCstsrpiwA&s=10"
+        alt="Golden crispy calamari rings with dipping sauce"
+        loading="lazy"
+    >
+
+    <div class="item-info">
+        <h3>
+            Garlic Butter Prawns
+            <span class="price">₹390</span>
+        </h3>
+        <p>
+            Fresh catch sautéed gently in rich churned butter, cracked pepper, and burnt garlic.
+        </p>
+    </div>
+</div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="section-header">
+            <h2>WHAT OUR GUESTS SAY</h2>
+        </div>
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <p class="review-text">"The house prawn pickle is absolutely spectacular. Perfect balance of spice and tang—pairs beautifully with any drink!"</p>
+                <h4>- Rohan Sharma</h4>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="testimonial-card">
+                <p class="review-text">"Incredible ambiance and top-tier hospitality. The seafood options here are uniquely fresh and authentic."</p>
+                <h4>- Priya Patel</h4>
+                <div class="stars">★★★★★</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Table Reservation Section -->
+    
+<section id="reserve" class="reserve-section">
+    <div class="reserve-container">
+        <span class="reserve-eyebrow">YOUR TABLE AWAITS</span>
+        <h2>RESERVE A TABLE</h2>
+        <p class="reserve-description">
+            Plan a memorable dining experience or arrange custom party catering.
+        </p>
+
+        <form id="booking-form">
+            <div class="form-row">
+                <div class="form-field">
+                    <label for="name">Full name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your full name"
+                        autocomplete="name"
+                        required
+                        minlength="2"
+                    >
+                </div>
+
+                <div class="form-field">
+                    <label for="email">Email address</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="you@example.com"
+                        autocomplete="email"
+                        required
+                    >
+                    <small class="field-hint">
+                        Enter a complete email, such as name@gmail.com.
+                    </small>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-field">
+                    <label for="date">Reservation date</label>
+                    <input
+                        type="date"
+                        id="date"
+                        name="date"
+                        required
+                    >
+                    <small class="field-hint">Choose today or a future date.</small>
+                </div>
+
+                <div class="form-field">
+                    <label for="time">Preferred time</label>
+                    <input
+                        type="time"
+                        id="time"
+                        name="time"
+                        required
+                    >
+                    <small class="field-hint" id="time-hint">
+                        Select your preferred dining time.
+                    </small>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-field">
+                    <label for="guests">Party size</label>
+                    <select id="guests" name="guests" required>
+                        <option value="" disabled selected>
+                            Select number of guests
+                        </option>
+                        <option value="1-2">1–2 people</option>
+                        <option value="3-4">3–4 people</option>
+                        <option value="5+">5+ people / private event</option>
+                    </select>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-submit">
+                Request a Reservation
+            </button>
+        </form>
+
+        <div
+            id="form-response"
+            role="status"
+            aria-live="polite"
+        ></div>
+    </div>
+</section>
+
+    <!-- Location & Contact Section -->
+    <section id="location" class="location-section">
+        <div class="location-container">
+            <!-- Left Side: Dynamic Address Details -->
+            <div class="location-info">
+                <h2 id="dynamic-title">VISIT OUR RESTAURANT</h2>
+                <p class="subtitle">Experience authentic coastal dining in person</p>
+                
+                <div class="info-block">
+                    <h4>📍 Address</h4>
+                    <!-- JavaScript will overwrite the text inside these id fields -->
+                    <p id="dynamic-address">Loading restaurant address...</p>
+                </div>
+
+                <div class="info-block">
+                    <h4>📞 Contact & Reservations</h4>
+                    <p id="dynamic-phone">Loading phone number...</p>
+                    <p id="dynamic-email">Loading email...</p>
+                </div>
+
+                <div class="info-block">
+                    <h4>🕒 Operating Hours</h4>
+                    <p id="dynamic-hours">Loading timing rules...</p>
+                </div>
+            </div>
+
+            <!-- Right Side: Dynamic Google Map Container -->
+            <div class="map-box">
+                <!-- The src value is omitted because script.js will fill it dynamically -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2686.6125489636675!2d85.96181767340494!3d20.18906331609234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1998d33137b11d%3A0xdece63cb5d275fd5!2sHotel%20Saishree!5e1!3m2!1sen!2sin!4v1792400830963!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-box">
+                <h3>AURORA DINING</h3>
+                <p>Bringing authentic premium seafood experiences straight to your plate.</p>
+            </div>
+            <div class="footer-box">
+                <h3>TIMINGS</h3>
+                <p>Mon - Sun: 12:00 PM - 11:30 PM</p>
+            </div>
+            <div class="footer-box">
+                <h3>CONTACT US</h3>
+                <p>Balipatana, Odisha, India</p>
+                <p>Email: contact@auroradining.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Aurora Dining. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('booking-form');
+    const email = document.getElementById('email');
+    const date = document.getElementById('date');
+    const time = document.getElementById('time');
+    const timeHint = document.getElementById('time-hint');
+
+    if (!form || !email || !date || !time) return;
+
+    // Require a valid-looking email with a domain and extension.
+    function validateEmail() {
+        const value = email.value.trim();
+
+        const emailPattern =
+            /^[A-Za-z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?(?:\.[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?)*\.[A-Za-z]{2,}$/;
+
+        const valid =
+            emailPattern.test(value) &&
+            !value.includes('..') &&
+            !value.split('@')[0].startsWith('.') &&
+            !value.split('@')[0].endsWith('.');
+
+        email.setCustomValidity(
+            valid || value === ''
+                ? ''
+                : 'Please enter a valid email, such as name@gmail.com.'
+        );
+
+        return valid;
+    }
+
+    email.addEventListener('input', validateEmail);
+    email.addEventListener('change', validateEmail);
+    email.addEventListener('blur', validateEmail);
+
+    // Format today's date using the visitor's local calendar.
+    function localDateString(dateObject = new Date()) {
+        const year = dateObject.getFullYear();
+        const month = String(dateObject.getMonth() + 1).padStart(2, '0');
+        const day = String(dateObject.getDate()).padStart(2, '0');
+
+        return `${year}-${month}-${day}`;
+    }
+
+    function currentTimeString() {
+        const now = new Date();
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+
+        return `${hours}:${minutes}`;
+    }
+
+    function updateDateAndTime() {
+        const today = localDateString();
+
+        // Prevent dates before today.
+        date.min = today;
+
+        // If an old date was selected, reset it.
+        if (date.value && date.value < today) {
+            date.value = '';
+        }
+
+        const isToday = date.value === today;
+
+        // When today is selected, only allow the current time or later.
+        time.min = isToday ? currentTimeString() : '00:00';
+
+        if (isToday && time.value && time.value < time.min) {
+            time.value = '';
+        }
+
+        timeHint.textContent = isToday
+            ? `Available from ${time.min} onwards today.`
+            : 'Choose a preferred time for your selected date.';
+    }
+
+    date.addEventListener('change', updateDateAndTime);
+
+    time.addEventListener('change', () => {
+        updateDateAndTime();
+
+        if (date.value === localDateString() &&
+            time.value &&
+            time.value < currentTimeString()) {
+            time.setCustomValidity(
+                'Please choose a future time for today.'
+            );
+        } else {
+            time.setCustomValidity('');
+        }
+    });
+
+    // Recheck time when the customer submits.
+    form.addEventListener('submit', (event) => {
+        validateEmail();
+        updateDateAndTime();
+
+        if (
+            !validateEmail() ||
+            !date.value ||
+            date.value < localDateString() ||
+            !time.value ||
+            (date.value === localDateString() &&
+                time.value < currentTimeString())
+        ) {
+            event.preventDefault();
+
+            if (
+                date.value === localDateString() &&
+                time.value &&
+                time.value < currentTimeString()
+            ) {
+                time.setCustomValidity(
+                    'Please choose a future time for today.'
+                );
+            }
+
+            form.reportValidity();
+        }
+    });
+
+    // Improve the native date/time input appearance on supported browsers.
+    date.style.colorScheme = 'light';
+    time.style.colorScheme = 'light';
+
+    updateDateAndTime();
+});
+</script>
+
+</body>
+</html>
